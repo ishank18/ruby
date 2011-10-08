@@ -1,2 +1,2 @@
-puts (5..10).inject {|sum, n| sum + n } 
-
+puts [4, 2, 3, 4].inject { |result, element|
+puts result }
