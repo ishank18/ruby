@@ -1,2 +1,4 @@
-puts [4, 2, 3, 4].inject { |result, element|
-puts result }
+f = IO.read("test.txt")
+p f
+#f.puts "hello"
+#f.each_line {|f_line| puts f_line}
