@@ -33,11 +33,11 @@ class Array
 		even = Array.new
 		array_hash_keys.inject(0) {|result, current_element| 
 			if(current_element%2 == 0)
-				odd[odd.length] = array_hash[current_element]
-				inject_hash["Even"] = odd
-			else
 				even[even.length] = array_hash[current_element]
-				inject_hash["Odd"] = even
+				inject_hash["Even"] = even
+			else
+				odd[odd.length] = array_hash[current_element]
+				inject_hash["Odd"] = odd
 			end
 		current_element }
 		p inject_hash
