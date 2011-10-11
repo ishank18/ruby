@@ -1,4 +1,1 @@
-f = IO.read("test.txt")
-p f
-#f.puts "hello"
-#f.each_line {|f_line| puts f_line}
+puts (0..5).inject {|sum, n| puts sum; puts n; n}
